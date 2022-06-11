@@ -36,6 +36,7 @@ ul {
 .header {
   align-items: center;
   background-color: var(--white-color);
+  border-bottom: 1px solid #eeeeee;
 }
 
 .container {
@@ -54,6 +55,9 @@ ul {
 .flex {
   display: flex;
   align-items: center;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .nav {
@@ -69,8 +73,6 @@ ul {
   line-height: 1.19;
 
   margin-right: 93px;
-  padding-top: 25px;
-  padding-bottom: 25px;
 
   display: flex;
 }
@@ -125,6 +127,9 @@ ul {
 .main-section {
   background-color: #2f303a;
   text-align: center;
+
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 
 .main-title {
@@ -137,7 +142,6 @@ ul {
   text-transform: uppercase;
 
   margin: 0;
-  padding-top: 200px;
 }
 
 .main-button {
@@ -155,7 +159,6 @@ ul {
 
   padding: 10px 32px;
   margin-top: 30px;
-  margin-bottom: 200px;
 }
 
 .peculiarities {
@@ -183,7 +186,6 @@ ul {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  padding-top: 94px;
 }
 
 .peculiarities-title {
@@ -203,6 +205,14 @@ ul {
 .peculiarities p {
   font-size: 14px;
   line-height: 1.71;
+}
+
+.peculiarities-task {
+  background-color: #e5e5e5;
+
+  text-align: center;
+
+  padding-top: 94px;
 }
 
 .team {
@@ -248,21 +258,26 @@ ul {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-
-  margin-top: 30px;
 }
 
 .team p {
   color: var(--secondary-text-color);
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
 
   margin-top: 10px;
+}
+
+.card-text {
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -273,7 +288,6 @@ ul {
   line-height: 1.19;
 
   display: block;
-  padding-top: 60px;
 }
 
 .footer-span {
@@ -282,8 +296,6 @@ ul {
 
 address {
   font-style: normal;
-
-  padding-bottom: 60px;
 }
 
 .footer a {
@@ -314,9 +326,6 @@ address {
 }
 
 /* Портфолио */
-.portfolio {
-  background-color: #e5e5e5;
-}
 
 button {
   background-color: #f5f4fa;
@@ -331,6 +340,8 @@ button {
   letter-spacing: 0.03em;
   border-radius: 4px;
   border-color: transparent;
+
+  padding: 6px 22px;
 }
 
 .btn {
@@ -371,18 +382,20 @@ button:focus {
   margin-right: 0;
 }
 
+.projects .card-text {
+  padding: 20px 24px;
+}
+
 .projects h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 
-  margin: 20px 24px 4px 24px;
+  margin-bottom: 4px;
 }
 
 .projects p {
   font-size: 16px;
   line-height: 1.88;
-
-  margin: 0px 24px;
 }

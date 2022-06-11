@@ -21,107 +21,131 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header class="header container">
-      <div class="flex">
-        <nav class="nav">
-          <a href="index.html" class="logo">Web<span class="logo-span">Studio</span> </a>
-          <ul class="site-nav">
-            <li class="item"><a href="index.html">Студия</a></li>
-            <li class="item"><a href="portfolio.html">Портфолио</a></li>
-            <li class="item"><a href="">Контакты</a></li>
+    <header class="header">
+      <div class="container">
+        <div class="flex">
+          <nav class="nav">
+            <a href="index.html" class="logo">Web<span class="logo-span">Studio</span> </a>
+            <ul class="site-nav">
+              <li class="item"><a href="index.html">Студия</a></li>
+              <li class="item"><a href="portfolio.html">Портфолио</a></li>
+              <li class="item"><a href="">Контакты</a></li>
+            </ul>
+          </nav>
+          <ul class="nav-contact">
+            <li class="item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
           </ul>
-        </nav>
-        <ul class="nav-contact">
-          <li class="item"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
       </div>
     </header>
     <main>
-      <section class="portfolio section container">
-        <ul class="btn">
-          <li class="item"><button type="button">Все</button></li>
-          <li class="item"><button type="button">Веб-сайты</button></li>
-          <li class="item"><button type="button">Приложения</button></li>
-          <li class="item"><button type="button">Дизайн</button></li>
-          <li class="item"><button type="button">Маркетинг</button></li>
-        </ul>
-        <ul class="projects">
-          <li class="item">
-            <img src="images/technokryak.jpg" alt="Веб-сайт открытый на ноутбуке" width="370" />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li class="item">
-            <img
-              src="images/neworlean.jpg"
-              alt="Постер Нового Орлеана против Золотых звёзд"
-              width="370"
-            />
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
-          </li>
-          <li class="item">
-            <img src="images/seafood.jpg" alt="Логотип ресторана моская еда" width="370" />
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
-          </li>
-          <li class="item">
-            <img src="images/prime.jpg" alt="Наушники" width="370" />
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
-          </li>
-          <li class="item">
-            <img src="images/boxes.jpg" alt="Белая и коричневая коробка" width="370" />
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
-          </li>
-          <li class="item">
-            <img
-              src="images/inspiration.jpg"
-              alt="Пример пользовательского интерфейса открытого на аймаке"
-              width="370"
-            />
-            <h2>Михаил Ермаков</h2>
-            <p>UI Designer</p>
-          </li>
-          <li class="item">
-            <img
-              src="images/limedition.jpg"
-              alt="Открытая книга с заголовком я ограниченный выпуск"
-              width="370"
-            />
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
-          </li>
-          <li class="item">
-            <img src="images/lab.jpg" alt="Белый брелок с надписью ЛАБ ЕЛ ТАГ" width="370" />
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
-          </li>
-          <li class="item">
-            <img
-              src="images/growing.jpg"
-              alt="Открытый сайт на ноутбуке с заголовком Растущий бизнес"
-              width="370"
-            />
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
-          </li>
-        </ul>
+      <section class="portfolio section">
+        <div class="container">
+          <ul class="btn">
+            <li class="item"><button type="button">Все</button></li>
+            <li class="item"><button type="button">Веб-сайты</button></li>
+            <li class="item"><button type="button">Приложения</button></li>
+            <li class="item"><button type="button">Дизайн</button></li>
+            <li class="item"><button type="button">Маркетинг</button></li>
+          </ul>
+          <ul class="projects">
+            <li class="item">
+              <img src="images/technokryak.jpg" alt="Веб-сайт открытый на ноутбуке" width="370" />
+              <div class="card-text">
+                <h2>Технокряк</h2>
+                <p>Веб-сайт</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="images/neworlean.jpg"
+                alt="Постер Нового Орлеана против Золотых звёзд"
+                width="370"
+              />
+              <div class="card-text">
+                <h2>Постер New Orlean vs Golden Star</h2>
+                <p>Дизайн</p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="images/seafood.jpg" alt="Логотип ресторана моская еда" width="370" />
+              <div class="card-text">
+                <h2>Ресторан Seafood</h2>
+                <p>Приложение</p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="images/prime.jpg" alt="Наушники" width="370" />
+              <div class="card-text">
+                <h2>Проект Prime</h2>
+                <p>Маркетинг</p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="images/boxes.jpg" alt="Белая и коричневая коробка" width="370" />
+              <div class="card-text">
+                <h2>Проект Boxes</h2>
+                <p>Приложение</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="images/inspiration.jpg"
+                alt="Пример пользовательского интерфейса открытого на аймаке"
+                width="370"
+              />
+              <div class="card-text">
+                <h2>Михаил Ермаков</h2>
+                <p>UI Designer</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="images/limedition.jpg"
+                alt="Открытая книга с заголовком я ограниченный выпуск"
+                width="370"
+              />
+              <div class="card-text">
+                <h2>Издание Limited Edition</h2>
+                <p>Дизайн</p>
+              </div>
+            </li>
+            <li class="item">
+              <img src="images/lab.jpg" alt="Белый брелок с надписью ЛАБ ЕЛ ТАГ" width="370" />
+              <div class="card-text">
+                <h2>Проект LAB</h2>
+                <p>Маркетинг</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                src="images/growing.jpg"
+                alt="Открытый сайт на ноутбуке с заголовком Растущий бизнес"
+                width="370"
+              />
+              <div class="card-text">
+                <h2>Growing Business</h2>
+                <p>Приложение</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="footer container">
-      <a href="index.html" class="footer-logo">Web<span class="footer-span">Studio</span> </a>
-      <address class="adress">
-        <p class="city">г. Киев, пр-т Леси Украинки, 26</p>
-        <ul>
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-          </li>
-          <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+    <footer class="footer">
+      <div class="container">
+        <a href="index.html" class="footer-logo">Web<span class="footer-span">Studio</span> </a>
+        <address class="adress">
+          <p class="city">г. Киев, пр-т Леси Украинки, 26</p>
+          <ul>
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+            </li>
+            <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
