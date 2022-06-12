@@ -166,6 +166,10 @@ ul {
   margin-top: 30px;
 }
 
+.peculiarities {
+  padding-top: 94px;
+}
+
 .peculiarities-list {
   display: flex;
   justify-content: center;
@@ -182,7 +186,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.peculiarities h2 {
+.peculiarities-task h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -199,6 +203,10 @@ ul {
   width: 270px;
 }
 
+.peculiarities-list .item + .item {
+  margin-left: 30px;
+}
+
 .peculiarities p {
   font-size: 14px;
   line-height: 1.71;
@@ -208,6 +216,7 @@ ul {
   text-align: center;
 
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .peculiarities-task .item + .item {
